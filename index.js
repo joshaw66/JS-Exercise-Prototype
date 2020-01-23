@@ -76,7 +76,7 @@ Person.prototype.toString = function () {
 
 function Car(model, milesPerGallon) {
   this.model = model;
-  this.milesPerGallon; milesPerGallon;
+  this.milesPerGallon = milesPerGallon;
   this.tank = 0;
   this.odometer = 0;
 }
@@ -109,10 +109,10 @@ Baby.prototype.play = function () {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Global Object Binding = shows the value as a window console object
+  2. Implicit Binding = when a dot calls a function, this is the object before the dot
+  3. New Binding = with the use of a constructor, "this" refers to the specific instance of the object created by constructor
+  4. Explicit Binding = when the call or apply method is used, "this" is explicitly defined.
 */
 
 
